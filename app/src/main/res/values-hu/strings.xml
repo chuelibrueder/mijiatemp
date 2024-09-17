@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Beállítások</string>
+    <string name="error_ble_not_supported">BLE nem támogatott</string>
+    <string name="error_bluetooth_not_supported">Bluetooth nem támogatott</string>
+    <string name="request_location_enable">A helymeghatározó szolgáltatás le van tiltva, kérlek kapcsold be</string>
+    <string name="request_location_permission">Engedély szükséges a tartózkodási helyéhez</string>
+    <string name="request_bt_connect_permission">Engedély szükséges a Bluetooth csatlakozáshoz</string>
+    <string name="request_bt_scan_permission">Engedély szükséges a Bluetooth keresés</string>
+    <string name="request_bt_enable">Bluetooth kikapcsolva, kérlek kapcsold be</string>
+    <string name="default_device_name">Xiaomi BT szenzor</string>
+    <string name="action_save">Mentés</string>
+    <string name="running">Fut</string>
+    <string name="title_pref_db_save_period">Az adatbázis frissítési intervalluma</string>
+    <string name="title_pref_start_on_boot">App-indítás eszköz újraindítás után</string>
+    <string name="title_pref_keep_service_alive">Életben tartás</string>
+    <string name="summary_pref_keep_service_alive">Életben tartja a szolgáltatást a háttérben futattva</string>
+    <string name="title_pref_store">Hőmérséklet és páratartalom</string>
+    <string name="summary_pref_store">Mentse a hőmérséklet/páratartalmat az adatbázisba</string>
+    <string name="title_pref_store_batt">Az akkumulátor töltöttségi szintje</string>
+    <string name="summary_pref_store_batt">Mentse a napi akkumulátor szintet az adatbázisba</string>
+    <string name="title_db_reset">Az adatbázis törlése</string>
+    <string name="summary_db_reset">A tárolt értékek törlődnek</string>
+    <string name="title_pref_battery">Akkumulátor optimalizálás</string>
+    <string name="summary_pref_battery_en">Engedélyezve (a futtatást a rendszer leállíthatja a háttérben)</string>
+    <string name="summary_pref_battery_dis">Letiltva (az alkalmazást a rendszer nem állíthatja le háttérben futtatáskor)</string>
+    <string name="title_pref_operation">Működés</string>
+    <string name="title_pref_service_notif_prio">Értesítési prioritás</string>
+    <string name="title_fahr">Fahrenheit</string>
+    <string name="notif_new_device">Új szenzor észlelve</string>
+    <string name="notif_new_device_saved">Automatikusan mentve (beállításokban állítható)</string>
+    <string name="notif_new_device_skipped">Nincs mentve (beállításokban állítható)</string>
+    <string name="temperature">Hőmérséklet</string>
+    <string name="humidity">Páratartalom</string>
+    <string name="double_press">A kilépéshez kattintson újra a VISSZA gombra</string>
+    <string name="title_pref_working_background">Háttérműködés</string>
+    <string name="title_pref_widget_refresh_period">Widget frissítési intervallum</string>
+    <string name="appwidget_configure_instructions">Válassza ki azt az szenzort, amelyet meg szeretne jeleníteni a widgetben</string>
+    <string name="saved">Mentve</string>
+    <!--string name="short_batt">akku=</string-->
+    <string name="short_humidity">pára=</string>
+    <string name="short_temperature">hőm=</string>
+    <string name="title_pref_bt_scan_mode">Bluetooth keresési mód</string>
+    <string name="device">Szenzor</string>
+    <string name="devices">Szenzorok</string>
+    <string name="short_second">mp</string>
+    <string name="short_minute">perc</string>
+    <string name="now">Most</string>
+    <string name="action_date">Dátumtartomány</string>
+    <string name="reset">Törlés</string>
+    <string name="title_range">Dátumtartomány-választó</string>
+    <string name="no_range_selected">Nincs kiválasztva dátumtartomány</string>
+    <string name="title_device_visibility">Szenzor láthatóság/kezelés</string>
+    <string name="summary_device_visibility">Láthatóság a listában, szenzor kezelése</string>
+    <string name="warn_optimized">Jelenleg az alkalmazás háttérben való működését a rendszer optimalizálja. Ebben az állapotban a háttérben való működés leállhat, de letilthatja az optimalizálást.</string>
+    <string name="cancel">Mégsem</string>
+    <string name="period_all">Az intervallum nincs beállítva</string>
+    <string name="hint_offset_temp">Hőmérséklet eltolása a valós értéktől</string>
+    <string name="hint_offset_hum">Páratartalom eltolása a valós értéktől</string>
+    <string name="temp_offset" formatted="false">Hőmérsékleti korrekció eltolása (%+.1f%s)</string>
+    <string name="hum_offset" formatted="false">Páratartalom korrekció eltolása (%+.1f%%)</string>
+    <string name="realtime">Valós idő</string>
+    <string name="history">Történet</string>
+    <string name="title_pref_appearance">Megjelenés</string>
+    <string name="title_pref_database">Adatbázis</string>
+    <string name="summary_pref_appearance">Megjelenésfüggő beállítások</string>
+    <string name="summary_pref_operation">Működéssel (háttérműködés, bluetooth, stb) kapcsolatos beállítások</string>
+    <string name="summary_pref_database">Adatbázis beállítások</string>
+    <string name="thingspeak_channel">Csatorna ID</string>
+    <string name="thingspeak_key">Csatorna írási kulcs</string>
+    <string name="no_internet_for">Internet kapcsolat szükséges a %s</string>
+    <string name="error_thingspeak_key">Kulcs/csatorna ID hiba</string>
+    <string name="thingspeak_data_need">Állítsa be a kulcsot és a csatorna azonosítót</string>
+    <string name="thingspeak_temp">Hőmérsékleti mező azonosítója</string>
+    <string name="thingspeak_hum">Páratartalom mező azonosítója</string>
+    <string name="thingspeak_bat">Akkumulátor mező azonosítója</string>
+    <string name="enable">Engedélyezés</string>
+    <string name="enabled">Engedélyezve</string>
+    <string name="disable">Tiltás</string>
+    <string name="disabled">Tiltva</string>
+    <string name="test">Teszt</string>
+    <string name="this_function">ez a funkció</string>
+    <string name="test_needs_for_save">ThingSpeak adatmentéshez szükség van egy sikeres tesztre</string>
+    <string name="test_needs_for_enable">Sikeres teszt szükséges</string>
+    <string name="thingspeak_update_interval_min">Frissítési intervallum (perc)</string>
+    <string name="thingspeak_update_interval_min_temp">Hőmérséklet frissítési intervallum (perc)</string>
+    <string name="thingspeak_update_interval_min_hum">Páratartalom frissítési intervallum (perc)</string>
+    <string name="thingspeak_update_interval_min_bat">Akkumulátor frissítési intervallum (perc)</string>
+    <string name="admob">A további fejlesztést a Pro verzió megvásárlásával támogathatja</string>
+    <string name="exit">Kilépés</string>
+    <string name="expired_please_refresh">Kérlek frissítsd az alkalmazást</string>
+    <string name="share">Megosztás</string>
+    <string name="feedback">Visszajelzés és hibajelentés</string>
+    <string name="help">Segítség</string>
+    <string name="purchase">Áruház</string>
+    <string name="send">Küldés…</string>
+    <string name="sku_title_pro">Pro verzió</string>
+    <string name="desc_sku_pro">Reklámmentes app extra funkciókkal</string>
+    <string name="buy">Vásárlás</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Szenzor adatok elérése távolról ingyenes <a href=\"https://thingspeak.com\">ThingSpeak</a> fiókon keresztül]]>
+    </string>
+    <string name="purchased_pre" formatted="false">Megvásárolta a(z) %s</string>
+    <string name="purchased_post" formatted="false">Ha bármilyen problémát talál, ne habozzon kapcsolatba lépni velem.\nKöszönöm.</string>
+    <string name="purchased_pro">Pro verzió.\nAz alkalmazás mostantól hirdetésmentes.</string>
+    <string name="purchased_thingspeak">ThingSpeak integrációt</string>
+    <string name="activity_configure">Widget konfigurálás</string>
+    <string name="checkbox_name_visibility">Szenzor nevének láthatósága</string>
+    <string name="checkbox_temp_visibility">Hőmérséklet láthatóság</string>
+    <string name="checkbox_hum_visibility">Páratartalom láthatóság</string>
+    <string name="checkbox_bat_visibility">Akkumulátor láthatósága</string>
+    <string name="title_widget_appearance">A widget megjelenési beállítások</string>
+    <string name="text_size">Szövegméret</string>
+    <string name="sample_text">Minta szöveg</string>
+    <string name="battery">Akkumulátor</string>
+    <string name="widget_type">Widget típus</string>
+    <string name="text_color">Szöveg szín</string>
+    <string name="background_color">Háttérszín</string>
+    <string name="new_version_on_play">Új verzió a Play-en</string>
+    <string name="refresh">Frissítés</string>
+    <string name="notif_period_expired">próbaidőszak lejárt</string>
+    <string name="unknown_error">Hiba</string>
+    <string name="title_theme">Téma</string>
+    <string name="title_pref_color_temperatue">Hőmérséklet vonalszín</string>
+    <string name="title_pref_color_humidity">Páratartalom vonalszín</string>
+    <string name="title_pref_color_battery">Akkumulátor vonalszín</string>
+    <string name="chart">Diagram</string>
+    <string name="post_title_app">\u0020alkalmazás</string>
+    <string name="appintro_welcome_title">Üdvözöljük!</string>
+    <string name="appintro_welcome_desc">Nem hivatalos alkalmazás a Xiaomi Mijia pára/hőmérőhöz</string>
+    <string name="appintro_permission_title">Engedélykérés</string>
+    <string name="appintro_permission_desc">A Bluetooth eléréséhez engedélyt kell adnia a helymeghatározáshoz</string>
+    <string name="appintro_how_it_works_title">Hogyan működik</string>
+    <string name="appintro_how_it_works_desc">Csak tartsa a szenzort közel ehhez az eszközhöz</string>
+    <string name="appintro_battery_optimazition_title">Akkumulátor optimalizálás</string>
+    <string name="appintro_battery_optimazition_desc">Kapcsolja ki az akkumulátor optimalizálást a háttérben való megfelelő működéshez</string>
+    <string name="appintro_finished_title">Az alapbeállítások beállítva</string>
+    <string name="appintro_finished_desc">KEZDJÜK</string>
+    <string name="title_pref_save_button">Mentés gomb</string>
+    <string name="summary_pref_save_button">Külön mentés gomb a fejlécen található gomb helyett</string>
+    <string name="title_pref_backup_restore">Biztonsági mentés / visszaállítás</string>
+    <string name="title_pref_db_backup">Biztonsági mentés</string>
+    <string name="summary_pref_db_backup">Biztonsági mentés a felhő adatbázisába</string>
+    <string name="title_pref_db_restore">Visszaállítás</string>
+    <string name="summary_pref_db_restore">Visszaállítás felhőadatbázisból</string>
+    <string name="correction">Jelentett hőmérsékleti/páratartalmi értékek korrigálva</string>
+    <string name="error_iab_init">Az alkalmazáson belüli számlázás nem elérhető!</string>
+    <string name="title_pref_devicesettings_name">Szenzornév</string>
+    <string name="title_pref_devicesettings_offsets">Korrekciós eltolások</string>
+    <string name="reporting">Távoli riportolás</string>
+    <string name="summary_device_name">Szenzor egyedi neve (még nincs beállítva)</string>
+    <string name="summary_offset">Eltolás értéke a valós értéktől (nincs beállítva)</string>
+    <string name="info_offset">Különbség értékek a mért és a valós közt</string>
+    <string name="field_settings">Mező beállítás</string>
+    <string name="thingspeak_set">Kérem állítsa be az api kulcs és csatorna azonosítóját</string>
+    <string name="default_field">Egyedi azonosító (1–8) (még nincs beállítva)</string>
+    <string name="alert">Riasztás</string>
+    <string name="notification">Értesítés</string>
+    <string name="email">E-mail</string>
+    <string name="title_pref_devicesettings_alert_temp_enable">Hőmérséklet riasztás</string>
+    <string name="title_pref_devicesettings_alert_hum_enable">Páratartalom riasztás</string>
+    <string name="title_pref_devicesettings_alert_bat_enable">Akkumulátor riasztás</string>
+    <string name="title_pref_devicesettings_alert_temp">Normál hőmérsékleti tartomány</string>
+    <string name="title_pref_devicesettings_alert_hum">Normál páratartalom tartomány</string>
+    <string name="title_pref_devicesettings_alert_bat">Akkumulátor riasztási határértéke</string>
+    <string name="alertif">Riasztás, ha</string>
+    <string name="text_and">és</string>
+    <string name="notset">(nincs beállítva)</string>
+    <string name="title_pref_devicesettings_email_sender">Küldő e-mail címe</string>
+    <string name="title_pref_devicesettings_email_receiver">Címzett e-mail címe</string>
+    <string name="function_disbled">Ez a funkció jelenleg letiltva (ebben a verzióban)</string>
+    <string name="needed" formatted="false">%s szükséges</string>
+    <string name="too_much_alert" formatted="false">Túl sok %s riasztás</string>
+    <string name="other">Egyéb</string>
+    <string name="summary_db_reset_for_device">A szenzor tárolt értékei törlődnek</string>
+    <string name="title_pref_devicesettings_sms_receiver">Címzett SMS száma</string>
+    <string name="sms">SMS</string>
+    <string name="help_thingspeak"><![CDATA[
+    &#149; <a href=\"https://thingspeak.com/users/sign_up\">Iratkozzon fel a ThingSpeak-re</a> ha még nem rendelkezik fiókkal<br>
+    &#149; <a href=\"https://thingspeak.com/login\">Jelentkezzen be a ThingSpeak-be</a><br>
+    &#149; Hozzon létre új csatornát a Csatornák, Saját csatornák, majd az Új csatorna kiválasztásával<br>
+    &#149; Töltse ki a csatorna azonosítóját és az írási kulcsot (a csatorna API kulcsai menüből) az szenzorbeállítás menüben<br>
+    &#149; Állítsa be a mezőszámot a kívánt alkalmazásban (pl. 1-es hőmérséklet, 2-es nedvesség, 3-as akkumulátor érték)<br>
+    &#149; Engedélyezze a mezők jelentését és a fő ThingSpeak jelentést<br>
+    &#149; Elkészült és hozzáférhet az értékekhez a világ bármely pontján (a ThingSpeak honlapon, a ThingSpeak alkalmazásban)]]></string>
+    <string name="title_pref_alert_threshold">Riasztási intervallum</string>
+    <string name="summary_pref_database_for_device">A szenzor adatbázisához kapcsolódó beállítások  (pl. szenzor törlése)</string>
+    <string name="title_pref_autostart">Automatikus indítás engedély</string>
+    <string name="summary_pref_autostart">Gyártóval kapcsolatos beállítás</string>
+    <string name="title_invitation">Meghívás küldése</string>
+    <string name="invitation_cta">Telepítés!</string>
+    <string name="invitation_message">Szeretném ajánlani ezt az alkalmazást az Ön számára</string>
+    <string name="invite">Meghívás és jutalom</string>
+    <string name="communication">Kommunikáció</string>
+    <string name="invitation_sent">Meghívó(k) elküldve</string>
+    <string name="thingspeak_devices">Android 5.0+ eszköz ezzel az alkalmazással</string>
+    <string name="any_devices">Webböngészők, Android-alkalmazások, iOS-alkalmazások, stb.</string>
+    <string name="msg_sure">Biztos?</string>
+    <string name="title_device_delete">Szenzor törlése</string>
+    <string name="summary_device_delete">A szenzor és tárolt értékei törlődnek</string>
+    <string name="title_pref_truetime">Hálózati idő</string>
+    <string name="summary_pref_truetime">Nagyobb pontosságú hálózati idő a helyi idő helyett</string>
+    <string name="time">Idő</string>
+    <string name="translate">Fordítás</string>
+    <string name="title_pref_other">Egyéb</string>
+    <string name="summary_pref_other">Egyéb (kísérleti) funkciók</string>
+    <string name="title_dontkill">Don\'t kill my app!</string>
+    <string name="warn_pro">Csak Pro verzióval</string>
+    <string name="title_pref_devicesettings_api_token">API Token</string>
+    <string name="title_pref_devicesettings_user_group_key">Felhasználó/csoport kulcs</string>
+    <string name="help_pushover"><![CDATA[
+    &#149; <a href=\"https://pushover.net/login\">Iratkozzon fel a Pushover-re</a> ha még nem rendelkezik fiókkal<br>
+    &#149; <a href=\"https://pushover.com/login\">Jelentkezzen be a Pushover-be</a><br>
+    &#149; Hozzon létre egy alkalmazás-/API-tokent az API-token beszerzéséhez<br>
+    &#149; Hozzon létre egy kézbesítési csoportot (feliratkozhatsz rá), hogy megkapja a csoportkulcsot<br>
+    &#149; Töltse ki az API token és a csoportkulcsot az szenzorbeállítások menüben<br>
+    &#149; Engedélyezze a mezők jelentését és a fő Pushover jelentést<br>
+    &#149; Kész vagy, és értesítést kap a <a href=\"https://pushover.net/clients\"> hivatalos ügyfeleinél</a> a világ bármely pontján]]></string>
+    <string name="title_pref_devicesettings_pushbullet_channel">Csatornacímke</string>
+    <string name="title_pref_devicesettings_apikey">API kulcs</string>
+    <string name="help_email">Egy kiválasztott címre e-mailt lehet küldeni a hőmérséklet/páratartalom/akkumulátor változás esetén</string>
+    <string name="help_sms">Egy kiválasztott címre SMS-t lehet küldeni a hőmérséklet/páratartalom/akkumulátor változás esetén</string>
+    <string name="help_notif">Hőmérséklet/páratartalom/akkumulátor változás esetén értesít (a státuszbáron)</string>
+    <string name="help_pushbullet"><![CDATA[
+    &#149; <a href=\"https://pushbullet.com/\">Pushbullet</a> regisztráció, amennyiben még nincs<br>
+    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Bejelentkezés a Pushbullet-be</a><br>
+    &#149; API kulcs létrehozása<a href=\"https://www.pushbullet.com/#settings\">beállítások</a> menüben<br>
+    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Új csatorna létrehozása</a><br>
+    &#149; API kulcs és csatorna azonsoító kitöltése a szenzorhoz tartozó beállításokban<br>
+    &#149; A mezőkhöz tartozó riportolás bekapcsolása és a Pushbullet riportolás bekapcsolása<br>
+    &#149; Kész vagy, a küldött adatokat a <a href=\"https://www.pushbullet.com/apps\">hivatalos kliensekkel</a> bárhol elérheted a világon]]></string>
+    <string name="error_device_not_found">A szenzor nem található az adatbázisban</string>
+    <string name="title_language">Nyelv</string>
+    <string name="title_pref_filter">Szűrés</string>
+    <!--<string name="summary_pref_filter">Csak az app által ismert szenzorok (összeomlások, egyéb problémák esetén hasznos)</string>-->
+    <string name="moisture">Nedvesség</string>
+    <string name="illuminance">Fényerősség</string>
+    <string name="conductivity">Termékenység</string>
+    <string name="title_pref_devicesettings_devinfo">Szenzorinformáció</string>
+    <string name="loading">Töltés. Kérlek várj…</string>
+    <string name="summary_device_info">Részletes információk a szenzorról</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Hardver verzió</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Szoftver verzió</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Firmware verzió</string>
+    <string name="title_pref_devicesettings_devinfo_serial">Sorozatszám</string>
+    <string name="title_pref_devicesettings_devinfo_model">Modellszám</string>
+    <string name="title_pref_devicesettings_devinfo_manufacturer">Gyártó</string>
+    <string name="cap_default">Alapértelmezett</string>
+    <string name="info_visible_all">Minden szenzor megjelenik</string>
+    <string name="info_visible_notall">Csak az engedélyezett szenzorok jelennek meg</string>
+    <string name="opportunistic">Alkalmazkodó</string>
+    <string name="low_power">Alacsony fogyasztás</string>
+    <string name="low_latency">Alacsony késleltetés</string>
+    <string name="balanced">Kiegyenlített</string>
+    <string name="title_pref_devicesettings_clock">Időszinkronizálás</string>
+    <string name="summary_pref_devicesettings_clock">A szenzort ehhez az eszköz idejéhez szinkronizálja</string>
+    <string name="title_pref_appearance_mac">Szenzor cím megjelenítés</string>
+    <string name="summary_pref_appearance_mac">A szenzor címének megjelenítése a kezelt szenzorok listájában</string>
+    <string name="message_translate">A fordítás közösségi összefogással készül. Amennyiben bármiféle javítandót találsz, vedd fel a kapcsolatot velem vagy te is javíhatod a githubon amit elérsz a főmenüből.\nKöszönet a fordítóknak</string>
+    <string name="summary_pref_default_chart_values">Kiválasztható mi jelenjen meg a diagramon alapértelmezettként</string>
+    <string name="title_pref_custom_sync">Alternatív időszinkronizáló módszer</string>
+    <string name="summary_pref_custom_sync">Ha az eredeti módszerrel beállított idő hibásnak bizonyul</string>
+    <string name="title_pref_background_new_device_detection">Új szenzor detektálás</string>
+    <string name="snack_bar_undo">Visszavonás</string>
+    <string name="info_deleted">Szenzor törölve</string>
+    <string name="data_sync">Adatszinkronizálás</string>
+    <string name="summary_pref_devicesettings_history">Hőmérséklet és páratartalom adatok letöltése a szenzorról</string>
+    <string name="data_sync_mark">Szeretné hogy a szenzor megjegyezné, hogy letöltötte az adatokat?\nEbben az esetben az adatok törlődnek a szenzorról és más alkalmazás sem fogja elérni.</string>
+    <string name="clear_history">Adatok kitörlése a szenzorról</string>
+    <string name="summary_clear_history">A mentett hőmérséklet és páratartalom adatok letörli a szenzorról</string>
+    <string name="data_cleared">Adatok törölve</string>
+    <string name="data">Adatok</string>
+    <string name="search">Keresés</string>
+    <string name="title_pref_devicesettings_advert_monitoring">Monitorozás a háttérben</string>
+    <string name="summary_pref_devicesettings_advert_monitoring">Az alkalmazás folyamatosan figyeli a háttérben a szenzor által küldött adatokat</string>
+    <string name="title_pref_devicesettings_key">Titkosító kulcs</string>
+    <string name="summary_pref_devicesettings_key">A titkosított adatszórás dekódolásához szükséges (ha a szenzor a MiHome-al párosítva van)</string>
+    <!--string name="summary_pref_devicesettings_key">Az adatok periodikus \'szórása\' titkosított. Kulcs nélkül a mért értékek lekérdezéséhez csatlakozni szükéséges a szenzorhoz, kulccsal nincs csatlakozásra szükség</string-->
+    <string name="warn_wrong">Hibás %1$s</string>
+    <string name="open">Megnyitás</string>
+    <string name="title_pref_devicesettings_clock_read">Dátum lekérdezése</string>
+    <string name="summary_pref_devicesettings_clock_read">Dátum kiolvasása a szenzorról</string>
+    <string name="title_pref_devicesettings_battery_service">Akkumulátor kiolvasás</string>
+    <string name="summary_pref_devicesettings_battery_service">Érték kiolvasása periodikusan BT kapcsolaton keresztül (szenzor hiányosság pótlása)</string>
+    <string name="warn_autostart_permission">Speciális gyártói engedély megadására lehet még szükség</string>
+    <string name="title_upgraded">Az app frissült</string>
+    <string name="desc_upgraded">Nézd meg mi változott</string>
+    <string name="channel_name_upgrade">Frissítés</string>
+    <string name="warn_service_not_running">A szolgálatás nem fut</string>
+    <string name="warn_location_permission">Helymeghatározás engedély szükséges a Bluetooth működéséhez. Helyadatokat az alkalmazás nem használ</string>
+    <string name="warn_kwgt">A valós értékek kizárólag Pro verzióval lesznek elküldve</string>
+    <string name="testing">Tesztelés</string>
+    <string name="warn_permission_problem">Engedély probléma</string>
+    <string name="info_kwgt">_KWGT_ alkalmazás segítségével egyedi kinézetű Képernyő és Zárképernyő widget-eket készíthetsz.\n\n
+        A következő broadcast lehetőségeket biztosítja az alkalmazás:\n
+        &#160;&#149; Hőmérséklet szám érték:\n
+        &#160;&#160;&#160;$br(_d_, temp)$\n
+        &#160;&#149; Formázott hőmérséklet szöveg érték:\n
+        &#160;&#160;&#160;$br(_d_, tempt)$\n
+        &#160;&#149; Páratartalom érték:\n
+        &#160;&#160;&#160;$br(_d_, hum)$\n
+        &#160;&#149; Formázott páratartalom szöveg:\n
+        &#160;&#160;&#160;$br(_d_, humt)$\n
+        &#160;&#149; Akkumulátor érték:\n
+        &#160;&#160;&#160;$br(_d_, bat)$\n
+        &#160;&#149; Nedvesség érték:\n
+        &#160;&#160;&#160;$br(_d_, moi)$\n
+        &#160;&#149; Fényerősség érték:\n
+        &#160;&#160;&#160;$br(_d_, ill)$\n
+        &#160;&#149; Termékenység érték:\n
+        &#160;&#160;&#160;$br(_d_, con)$\n
+        \n\n
+        * Természetesen nem minden érték elérhető ennek a szenzornak a használatával.\n\n
+        Példa widget:
+    </string>
+
+    <string name="warning">Figyelem</string>
+    <string name="warn_lywsd02_fw">Úgy tűnik ez egy elavult firmware verzió.\nAz akkumulátor állapot küldése a 1.1.2_0085-tól működik ezért érdemes lenne frissíteni</string>
+    <string name="warn_new_firmware">Létezik ennél frissebb firmware verzió is</string>
+    <string name="warn_encrypred">A szórt adatok titkosítottakk (a szenzor az Mi Home apphoz titkos kulccsal hozzá van kötve)</string>
+    <string name="info_widget">A widget csak akkor működik ha a szenzorok bluetooth-al láthatóak és az alkalmazás a háttérben fut</string>
+    <string name="info_kwgt_create">KWGT widget készítés:\n - üres widget létrehozása a KWGT-ben\n - adj hozzá egy szöveget amit meg szeretnél jeleníteni\n - kattints az elemek alatt a szövegre és a szerkesztőben add meg kívánt formulát\n\nHa helyesen csinálod már a szerkesztőben behelyettesíti a megfelelő értéket, ahogy az alábbi példán is látható.</string>
+    <string name="error_background_service">Sikertlen háttérszolgáltatás indítás</string>
+    <string name="error_background_service_reason">A háttérszolgáltatás indítása sikertelen volt az alábbi hiba miatt: </string>
+    <string name="error_background_service_reason_truncated">A háttérszolgáltatás indítása sikertelen volt, mert…</string>
+    <string name="notification_channel_high_priority_name">Fontos értesítések</string>
+    <string name="msg_sensor_name">Adj nevet a %s szenzornak</string>
+    <string name="warn_empty_sensor_name">A szenzor neve nem lehet üres</string>
+    <string name="title_pref_thb_gatt">Adat lekérdezés kapcsolódással</string>
+    <string name="summary_pref_thb_gatt">A hőmérséklet, páratartalom és akkumulátor adatok lekérdezése eszközhöz kapcsolódással (pl. ha nincs meg a titkosító kulcs)</string>
+    <string name="warn_conn_disabled">Kapcsolódással történő (aktív) adatlekérdezés a működési menüben le van tiltva</string>
+    <string name="title_flash">Firmware frissítés</string>
+    <string name="summary_flash">Szenzor firmware frissítés új vagy akár régebbi, esetleg nem hivatalos verzióra</string>
+    <string name="load_from_storage">Betöltés tárhelyről</string>
+    <string name="file">fájl</string>
+    <string name="warn_flashing">A firmware frissítés kockázatos, akár tönkre is teheti a szenzort!\n\nTanács: a szenzor minél közelebb legyen a sebesség maximalizálás és az adatátviteli problémák minimalizálásához.</string>
+    <string name="warn_flashing_not_tested">A firmware frissítés CGG1, LYWSD03 és MHO-C401 lett tesztelve.\nÚgy tűnik ez a szenzor nem támogatott. Amennyiben szerinted ennek a figyelmeztetésnek nem kellene megjelennie, dobj egy e-mailt.\n\nFolytatod?</string>
+    <string name="fetch">Lekérés</string>
+    <string name="hint_user">e-mail vagy xiaomi fiók azonosító</string>
+    <string name="password">jelszó</string>
+    <string name="info_save">Szeretnéd menteni a bejelentkezési adatokat?</string>
+    <string name="info_fetch">Manuálisan is megadhatod, vagy lekérdezheted a megfelelő xiaomi szerverről.</string>
+    <string name="server">Xiaomi szerver országkódja</string>
+    <string name="warn_vpn">A VPN-t ki kell kapcsoni</string>
+    <string name="about">Az alkalmazásról</string>
+    <string name="app">Alkalmazás</string>
+    <string name="version">Verzió</string>
+    <string name="developer">Fejlesztő</string>
+    <string name="unlock">Feloldás</string>
+    <string name="play_store">Play Áruház</string>
+    <string name="wiki">Wiki oldal</string>
+    <string name="dewpoint">Harmatpont</string>
+    <string name="title_devicesettings_dewpoint">Harmatpont megjelenítés</string>
+    <string name="summary_devicesettings_dewpoint">Hőmérsékletből és páratartalomból számolt harmatpont</string>
+    <string name="info_do_a_sync">A szinkornizációs módszer megváltozott, most már az új módszerrel tudsz dátumot frissíteni</string>
+    <string name="my_apps">Alkalmazásaim</string>
+    <string name="title_new">Új</string>
+    <string name="appintro_schedule_title">Pontos időzítés</string>
+    <string name="appintro_schedule_desc">Pontos időzítéshez Android 12-től engedély megadása szükséges</string>
+</resources>

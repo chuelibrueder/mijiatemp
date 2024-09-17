@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="settings">Settings</string>
+
+    <string name="error_ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="request_location_enable">Location service is disabled, please turn it on</string>
+    <string name="request_location_permission">Location permission is needed</string>
+    <string name="request_bt_connect_permission">Bluetooth connection permission is needed</string>
+    <string name="request_bt_scan_permission">Bluetooth scan permission is needed</string>
+
+    <string name="running">Running</string>
+    <string name="request_bt_enable">Bluetooth is disabled, please turn it on</string>
+
+    <string name="default_device_name">Xiaomi BT Temp Sensor</string>
+    <string name="action_save">Save</string>
+    <string name="title_pref_db_save_period">Database update interval</string>
+
+    <string name="title_pref_start_on_boot">Start background working after boot</string>
+
+    <string name="title_pref_keep_service_alive">Keep alive</string>
+    <string name="summary_pref_keep_service_alive">Keep the service alive</string>
+
+    <string name="title_pref_store">Temperature and humidity</string>
+    <string name="summary_pref_store">Save the temperature/humidity into database</string>
+
+    <string name="title_pref_store_batt">Battery level</string>
+    <string name="summary_pref_store_batt">Save the daily battery level into database</string>
+
+    <string name="title_db_reset">Database cleanup</string>
+    <string name="summary_db_reset">Stored values will be deleted</string>
+
+    <string name="title_pref_battery">Battery optimization</string>
+    <string name="summary_pref_battery_en">Enabled (proper operation in the background is not guaranteed, e.g notifications may be lost)</string>
+    <string name="summary_pref_battery_dis">Disabled (app should also work properly in the background)</string>
+
+    <string name="title_pref_operation">Operating</string>
+
+    <string name="title_pref_service_notif_prio">Notification priority</string>
+    <string name="title_fahr">Fahrenheit</string>
+    <string name="notif_new_device">New sensor detected</string>
+    <string name="notif_new_device_saved">Automatically saved (can be change in settings)</string>
+    <string name="notif_new_device_skipped">Not saved (can be change in settings)</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="double_press">Please click BACK again to exit</string>
+    <string name="title_pref_working_background">Background working</string>
+    <string name="title_pref_widget_refresh_period">Widget refresh interval</string>
+    <string name="appwidget_configure_instructions">Please select the sensor you would like to show in the widget</string>
+    <string name="saved">Saved</string>
+    <!--string name="hint_device_name">Device name</string-->
+    <!--string name="short_batt">batt=</string-->
+    <string name="short_humidity">hum=</string>
+    <string name="short_temperature">temp=</string>
+    <string name="title_pref_bt_scan_mode">Bluetooth scan mode</string>
+    <string name="device">Sensor</string>
+    <string name="devices">Sensors</string>
+    <string name="short_second">sec</string>
+    <string name="short_minute">min</string>
+    <string name="now">Now</string>
+    <string name="action_date">Date range</string>
+    <string name="reset">Reset</string>
+    <string name="title_range">Date range selector</string>
+    <string name="no_range_selected">There isn\'t selected date range</string>
+    <string name="title_device_visibility">Sensor visibility &amp; processing</string>
+    <string name="summary_device_visibility">Visibility in the list, processing</string>
+    <string name="warn_optimized">Currently the app background usage is optimized by the system. In this state the background working could stop but you can disable the optimization.</string>
+    <string name="cancel">Cancel</string>
+    <string name="period_all">Interval not set</string>
+    <string name="hint_offset_temp">Temperature offset from real value</string>
+    <string name="hint_offset_hum">Humidity offset from real value</string>
+    <string name="temp_offset" formatted="false">Temperature correction offset (%+.1f%s)</string>
+    <string name="hum_offset" formatted="false">Humidity correction offset (%+.1f%%)</string>
+    <string name="realtime">Real-time</string>
+    <string name="history">History</string>
+    <string name="title_pref_appearance">Appearance</string>
+    <string name="title_pref_database">Database</string>
+    <string name="summary_pref_appearance">App appearance depending settings</string>
+    <string name="summary_pref_operation">Operational (bluetooth, background, etc) settings</string>
+    <string name="summary_pref_database">Database related settings</string>
+    <string name="thingspeak_channel">Channel ID</string>
+    <string name="thingspeak_key">Channel Write Key</string>
+
+    <string name="no_internet_for">Internet connection needed for %s</string>
+    <string name="error_thingspeak_key">Key/channel ID error</string>
+    <string name="thingspeak_data_need">Set the Key and the Channel ID</string>
+    <string name="thingspeak_temp">Temperature field id</string>
+    <string name="thingspeak_hum">Humidity field id</string>
+    <string name="thingspeak_bat">Battery field id</string>
+    <string name="enable">Enable</string>
+    <string name="enabled">Enabled</string>
+    <string name="disable">Disable</string>
+    <string name="disabled">Disabled</string>
+    <string name="test">Test</string>
+    <string name="this_function">this function</string>
+    <string name="test_needs_for_save">ThingSpeak data saving needs a successful testing</string>
+    <string name="test_needs_for_enable">Need to do a successful test</string>
+    <string name="thingspeak_update_interval_min">Update interval (minute)</string>
+    <string name="thingspeak_update_interval_min_temp">Temperature update interval (minute)</string>
+    <string name="thingspeak_update_interval_min_hum">Humidity update interval (minute)</string>
+    <string name="thingspeak_update_interval_min_bat">Battery update interval (minute)</string>
+    <string name="admob">You can support the further development by buying the Pro version</string>
+    <string name="exit">Exit</string>
+    <string name="expired_please_refresh">Please refresh the application</string>
+    <string name="share">Share</string>
+    <string name="feedback">Feedback &amp; bug report</string>
+    <string name="help">Help</string>
+    <string name="purchase">Store</string>
+    <string name="send">Send…</string>
+    <string name="sku_title_pro">Pro version</string>
+    <string name="desc_sku_pro">Advert free app with extra functions</string>
+    <string name="buy">Buy</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Sensor data remote access with free <a href=\"https://thingspeak.com\">ThingSpeak</a> account]]>
+    </string>
+    <string name="purchased_pre" formatted="false">You purchased %s</string>
+    <string name="purchased_post" formatted="false">\nIf you have any problem with it, don\'t hesitate to contact me.\nThank you.</string>
+    <string name="purchased_pro">Pro version.\nApp is ad-free now.</string>
+    <string name="purchased_thingspeak">ThingSpeak integration feature.</string>
+    <string name="activity_configure">Widget configure</string>
+    <string name="checkbox_name_visibility">Sensor name visibility</string>
+    <string name="checkbox_temp_visibility">Temperature visibility</string>
+    <string name="checkbox_hum_visibility">Humidity visibility</string>
+    <string name="checkbox_bat_visibility">Battery visibility</string>
+    <string name="title_widget_appearance">Widget appearance settings</string>
+    <string name="text_size">Text size</string>
+    <string name="sample_text">Samle text</string>
+    <string name="battery">Battery</string>
+    <string name="widget_type">Widget type</string>
+    <string name="text_color">Textcolor</string>
+    <string name="background_color">Background color</string>
+    <string name="new_version_on_play">New version at Play</string>
+    <string name="please_refresh">Please refresh!</string>
+    <string name="refresh">Refresh</string>
+    <string name="notif_period_expired">trial period expired</string>
+    <string name="unknown_error">Error</string>
+    <string name="title_theme">Theme</string>
+    <string name="title_pref_color_temperatue">Temperature line color</string>
+    <string name="title_pref_color_humidity">Humidity line color</string>
+    <string name="title_pref_color_battery">Battery line color</string>
+    <string name="chart">Chart</string>
+    <string name="post_title_app">\u0020application</string>
+    <string name="appintro_welcome_title">Welcome!</string>
+    <string name="appintro_welcome_desc">Unofficial app for Xiaomi Mijia bluetooth hygro-thermometers</string>
+    <string name="appintro_permission_title">Permission request</string>
+    <string name="appintro_permission_desc">In order to access your bluetooth, you must give location permission</string>
+    <string name="appintro_how_it_works_title">How it works</string>
+    <string name="appintro_how_it_works_desc">Just keep the sensor close to this device</string>
+    <string name="appintro_battery_optimazition_title">Battery optimization</string>
+    <string name="appintro_battery_optimazition_desc">Turn battery optimization off for proper background working</string>
+    <string name="appintro_finished_title">Basic settings are set</string>
+    <string name="appintro_finished_desc">GET STARTED</string>
+    <string name="title_pref_save_button">Save button</string>
+    <string name="summary_pref_save_button">Separate save button instead of toolbar button</string>
+    <string name="title_pref_backup_restore">Backup / restore</string>
+    <string name="title_pref_db_backup">Backup</string>
+    <string name="summary_pref_db_backup">Backup to cloud database</string>
+    <string name="title_pref_db_restore">Restore</string>
+    <string name="summary_pref_db_restore">Restore from cloud database</string>
+    <string name="correction">Reported temperature/humidity values corrected with offsets</string>
+    <string name="error_iab_init">In-app billing is not available!</string>
+    <string name="title_pref_devicesettings_name">Sensor name</string>
+    <string name="title_pref_devicesettings_offsets">Correction offsets</string>
+    <string name="reporting">Remote reporting</string>
+    <string name="summary_device_name">Unique name of this sensor (not set yet)</string>
+    <string name="summary_offset">Offsets from the real values (not set yet)</string>
+    <string name="info_offset">Differences between the measured and the real values</string>
+    <string name="field_settings">Field settings</string>
+    <string name="thingspeak_set">Please set api key and channel id</string>
+    <string name="default_field">Unique id (1–8) (not set yet)</string>
+    <string name="alert">Alert</string>
+    <string name="notification">Notification</string>
+    <string name="email">E-mail</string>
+    <string name="title_pref_devicesettings_alert_temp_enable">Temperature alert</string>
+    <string name="title_pref_devicesettings_alert_hum_enable">Humidity alert</string>
+    <string name="title_pref_devicesettings_alert_bat_enable">Battery alert</string>
+
+    <string name="title_pref_devicesettings_alert_temp">Normal temperature range</string>
+    <string name="title_pref_devicesettings_alert_hum">Normal humidity range</string>
+    <string name="title_pref_devicesettings_alert_bat">Battery alert limit</string>
+    <string name="alertif">Alert if</string>
+    <string name="text_and">and</string>
+    <string name="notset">(not set yet)</string>
+    <string name="title_pref_devicesettings_email_sender">Sender e-mail address</string>
+    <string name="title_pref_devicesettings_email_receiver">Receiver e-mail address</string>
+    <string name="function_disbled">This function is disabled at that moment (in this version)</string>
+    <string name="needed" formatted="false">%s needed</string>
+    <string name="too_much_alert" formatted="false">Too much %s alert</string>
+    <string name="other">Other</string>
+    <string name="summary_db_reset_for_device">Stored sensor values will be deleted</string>
+    <string name="title_pref_devicesettings_sms_receiver">Receiver SMS number</string>
+    <string name="sms">SMS</string>
+    <string name="help_thingspeak"><![CDATA[
+    &#149; <a href=\"https://thingspeak.com/users/sign_up\">Sign up for ThingSpeak</a> if you don\'t have account yet<br>
+    &#149; <a href=\"https://thingspeak.com/login\">Sign in to ThingSpeak</a><br>
+    &#149; Create a new Channel by selecting Channels, My Channels, and then New Channel<br>
+    &#149; Fill Channel ID and the write key (from the API Keys menu of the channel) in the sensor settings menu<br>
+    &#149; Set the field numbers in the app you would like (eg. 1 for temperature, 2 for humidity, 3 for battery values)<br>
+    &#149; Enable the fields reporting and the main ThingSpeak reporting<br>
+    &#149; You\'re finished and able to access the values anywhere in the world (on ThingSpeak homepage, in ThingSpeak apps)
+    ]]></string>
+    <string name="title_pref_alert_threshold">Alert interval</string>
+    <string name="summary_pref_database_for_device">Database related settings for this sensor. (e.g.: delete sensor)</string>
+    <string name="title_pref_autostart">Autostart permission</string>
+    <string name="summary_pref_autostart">Manufacturer related setting</string>
+    <string name="title_invitation">Send invitation</string>
+    <string name="invitation_cta">Install!</string>
+    <string name="invitation_message">I\'d like to recommend this app for you</string>
+    <string name="invite">Invite and reward</string>
+    <string name="communication">Communication</string>
+    <string name="invitation_sent">Invitation(s) sent</string>
+    <string name="thingspeak_devices">Android 5.0+ device with this App</string>
+    <string name="any_devices">Web browsers, Android apps, iOS apps, etc.</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="title_device_delete">Sensor delete</string>
+    <string name="summary_device_delete">Sensor and its stored values will be deleted</string>
+    <string name="title_pref_truetime">Network time</string>
+    <string name="summary_pref_truetime">Higher accuracy network time instead of local time</string>
+    <string name="time">Time</string>
+    <string name="translate">Translate</string>
+    <string name="title_pref_other">Other</string>
+    <string name="summary_pref_other">Other (experimental) functions</string>
+    <string name="title_dontkill">Don\'t kill my app!</string>
+    <string name="warn_pro">Only with Pro version</string>
+    <string name="title_pref_devicesettings_api_token">API Token</string>
+    <string name="title_pref_devicesettings_user_group_key">User/Group Key</string>
+
+    <string name="help_pushover"><![CDATA[
+    &#149; <a href=\"https://pushover.net/login\">Sign up for Pushover</a> if you don\'t have account yet<br>
+    &#149; <a href=\"https://pushover.com/login\">Sign in to Pushover</a><br>
+    &#149; Create an Application/API Token to get API Token<br>
+    &#149; Create an Delivery group (you can subscribe to that) to get Group Key<br>
+    &#149; Fill API Token and Group key in the sensor settings menu<br>
+    &#149; Enable the fields reporting and the main Pushover reporting<br>
+    &#149; You\'re finished and going be notified in your <a href=\"https://pushover.net/clients\">official clients</a> anywhere in the world
+    ]]></string>
+
+    <string name="title_pref_devicesettings_pushbullet_channel">Channel tag</string>
+    <string name="title_pref_devicesettings_apikey">API Key</string>
+    <string name="help_email">You can send an email from a chosen address to another given email address about the temperature/humidity/battery changes</string>
+    <string name="help_sms">You can send an SMS from this SIM of this device to a given phone number about the temperature/humidity/battery changes</string>
+    <string name="help_notif">You can notify on this device about the temperature/humidity/battery changes (on the statubar)</string>
+    <string name="help_pushbullet"><![CDATA[
+    &#149; <a href=\"https://pushbullet.com/\">Sign up for Pushbullet</a> if you don\'t have account yet<br>
+    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Sign in to Pushbullet</a><br>
+    &#149; Create API key in <a href=\"https://www.pushbullet.com/#settings\">settings</a> menu<br>
+    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Create a new channel</a><br>
+    &#149; Fill API key and channel tag in the sensor settings menu<br>
+    &#149; Enable the fields reporting and the main Pushbullet reporting<br>
+    &#149; You\'re finished and going be notified in your <a href=\"https://www.pushbullet.com/apps\">official clients</a> anywhere in the world
+    ]]></string>
+    <string name="error_device_not_found">Sensor not found in database</string>
+    <string name="title_language">Language</string>
+    <string name="title_pref_filter">Filtering</string>
+    <!--string name="summary_pref_filter">Only known sensors (in case of problems, crash, etc)</string-->
+    <string name="moisture">Moisture</string>
+    <string name="illuminance">Light intensity</string>
+    <string name="conductivity">Fertility</string>
+    <string name="title_pref_devicesettings_devinfo">Device information</string>
+    <string name="loading">Loading. Please wait…</string>
+    <string name="summary_device_info">Info about this device</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Hardware revision</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Software revision</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Firmware revision</string>
+    <string name="title_pref_devicesettings_devinfo_serial">Serial number</string>
+    <string name="title_pref_devicesettings_devinfo_model">Model number</string>
+    <string name="title_pref_devicesettings_devinfo_manufacturer">Manufacturer</string>
+    <string name="info_visible_all">All devices are visible</string>
+    <string name="info_visible_notall">Selected devices are visible</string>
+    <string name="cap_default">Default</string>
+
+    <string name="opportunistic">Opportunistic</string>
+    <string name="low_power">Low power</string>
+    <string name="balanced">Balanced</string>
+    <string name="low_latency">Low latency</string>
+    <string name="title_pref_devicesettings_clock">Time synchronization</string>
+    <string name="summary_pref_devicesettings_clock">Synchronize the sensor for this device time</string>
+    <string name="title_pref_appearance_mac">Device address visibility</string>
+    <string name="summary_pref_appearance_mac">Address visible in the list of the main screen</string>
+    <string name="message_translate">The translation is made with community cooperation. If you find any correctable text please contact me or simply fix it on the github which is available from the main menu.\nThanks to the translators</string>
+    <string name="summary_pref_default_chart_values">Select what can be visible by default</string>
+    <string name="title_pref_custom_sync">Custom time sync method</string>
+    <string name="summary_pref_custom_sync">If the time is incorrect with the default method</string>
+    <string name="title_pref_background_new_device_detection">New sensor detection</string>
+    <string name="snack_bar_undo">Undo</string>
+    <string name="info_deleted">Device deleted</string>
+    <string name="data_sync">Data synchronization</string>
+    <string name="summary_pref_devicesettings_history">Download the temperature and humidity data history from the device</string>
+    <string name="data_sync_mark">Do you want the device to remember that you downloaded the data?\nIn this case, the data will be deleted from the device and will not be accessed by any other application.</string>
+    <string name="clear_history">Clear history data on device</string>
+    <string name="summary_clear_history">Saved temperature and humidity data will delete from the device</string>
+    <string name="data_cleared">Data cleared</string>
+    <string name="data">Data</string>
+    <string name="search">Search</string>
+    <string name="title_pref_devicesettings_advert_monitoring">Monitoring in the background</string>
+    <string name="summary_pref_devicesettings_advert_monitoring">App constantly monitors the data coming from this device</string>
+    <string name="title_pref_devicesettings_key">Decryption key</string>
+    <string name="summary_pref_devicesettings_key">Key for decoding the encrypted advertised data (if device is bound with MiHome)</string>
+    <!--string name="summary_pref_devicesettings_key">Periodic data advertising is encrypted if the sensor is bound to the xiomi server. App must connect to the sensor without the key to obtain data but no connection is required with the key</string-->
+    <string name="hint_key">key</string>
+    <string name="warn_wrong">Wrong %1$s</string>
+    <string name="open">Open</string>
+    <string name="testing">Testing</string>
+    <string name="title_upgraded">The app has been updated</string>
+    <string name="desc_upgraded">Look what has changed</string>
+    <string name="channel_name_upgrade">Upgrade</string>
+    <string name="title_pref_devicesettings_clock_read">Read date</string>
+    <string name="summary_pref_devicesettings_clock_read">Read the date from the device</string>
+    <string name="title_pref_devicesettings_battery_service">Read battery value</string>
+    <string name="summary_pref_devicesettings_battery_service">Reading the value periodically with BT connection (workaround for device defect)</string>
+    <string name="warn_autostart_permission">Special manufacturer permission may be required</string>
+    <string name="warn_location_permission">Location permission is required for Bluetooth scan in Android.\nService running on Android 10 and higher cannot discover Bluetooth devices unless they have the background location permission. It needs for collecting the data from the bluetooth devices in the background.\nThe app does not collect location data at all but cannot work without these permissions, please grant them.</string>
+    <string name="warn_service_not_running">Service not running</string>
+    <string name="warn_permission_problem">Permission problem</string>
+    <string name="warn_kwgt">Values will be not valid without Pro version</string>
+    <string name="info_kwgt">You can create unique-looking Launcher and Lockscreen widgets with the _KWGT_ app.\n\n
+        The following broadcast options are provided by the application:\n
+        &#160;&#149; Raw temperature number:\n
+        &#160;&#160;&#160;$br(_d_, temp)$\n
+        &#160;&#149; Formatted temperature text:\n
+        &#160;&#160;&#160;$br(_d_, tempt)$\n
+        &#160;&#149; Raw humidity number:\n
+        &#160;&#160;&#160;$br(_d_, hum)$\n
+        &#160;&#149; Formatted humidity text:\n
+        &#160;&#160;&#160;$br(_d_, humt)$\n
+        &#160;&#149; Raw battery number:\n
+        &#160;&#160;&#160;$br(_d_, bat)$\n
+        &#160;&#149; Raw moisture text:\n
+        &#160;&#160;&#160;$br(_d_, moi)$\n
+        &#160;&#149; Raw illuminance text:\n
+        &#160;&#160;&#160;$br(_d_, ill)$\n
+        &#160;&#149; Raw conductivity text:\n
+        &#160;&#160;&#160;$br(_d_, con)$\n
+        \n\n
+        * Of course, not all of the above values are available for this device.\n\n
+        Example widget:
+    </string>
+    <string name="warning">Warning</string>
+    <string name="warn_lywsd02_fw">Seems to be an outdated firmware version.\nBattery value is broadcasted from version 1.1.2_0085\nIt would be worth updating</string>
+    <string name="warn_new_firmware">There is a newer firmware version</string>
+    <string name="warn_encrypred">Broadcast data is encrypted (the sensor is connected to the Mi Home app, with secret key)</string>
+    <string name="info_widget">The widget only works if the sensors are visible with bluetooth and the app is running in the background</string>
+    <string name="info_kwgt_create">Create a KWGT widget:\n - create an empty widget inside the KWGT\n - add a text you want to display\n - click on the text and edit the formula using with the above\n\nIf you did it correctly, the appropriate value will be substituted in the editor immediately as shown in the example image below.</string>
+
+    <string name="error_background_service">Failed to start background service</string>
+    <string name="error_background_service_reason">Starting the background service failed because of an exception. Error: </string>
+    <string name="error_background_service_reason_truncated">Starting the background service failed because…</string>
+    <string name="notification_channel_high_priority_name">Important notifs</string>
+    <string name="msg_sensor_name">Give the sensor name of %s</string>
+    <string name="warn_empty_sensor_name">Sensor name cannot be empty</string>
+    <string name="title_pref_thb_gatt">Data fetch with connection</string>
+    <string name="summary_pref_thb_gatt">Temperature, humidity and battery data with connection to a device (eg. if has no encryption key)</string >
+    <string name="warn_conn_disabled">Fetching data via connection is disabled in the operation settings</string>
+    <string name="title_flash">Firmware update</string>
+    <string name="summary_flash">Sensor firmware update to a new / old / custom version</string>
+    <string name="load_from_storage">Load from storage</string>
+    <string name="file">file</string>
+    <string name="warn_flashing">Firmware flashing is risky and could brick your sensor.\n\nAdvice: be close to the sensor for the best speed and to avoid data transfer problems.</string>
+    <string name="warn_flashing_not_tested">Firmware update was tested with CGG1, LYWSD03 and MHO-C401 but this sensor seems to be different.\nIf you know this sensor should be supported without warning, please drop a mail\n\nWould you like to continue?</string>
+    <string name="fetch">Fetch</string>
+    <string name="hint_user">e-mail or xiaomi account id</string>
+    <string name="password">password</string>
+    <string name="info_save">Would you like to save the credentials?</string>
+    <string name="info_fetch">You can set it manually or fetch from xiaomi server with your credetials</string>
+    <string name="server">Xiaomi server country code</string>
+    <string name="warn_vpn">Please disable the VPN</string>
+
+    <string name="about">About</string>
+    <string name="app">Application</string>
+    <string name="version">Version</string>
+    <string name="developer">Developer</string>
+    <string name="unlock">Unlock</string>
+    <string name="play_store">Play Store</string>
+    <string name="wiki">Wiki page</string>
+    <string name="dewpoint">Dew point</string>
+    <string name="title_devicesettings_dewpoint">Dew point visibility</string>
+    <string name="summary_devicesettings_dewpoint">Calculated dew point from temperature and humidity</string>
+    <string name="info_do_a_sync">Method has changed, you can now sync the date with the new method</string>
+    <string name="my_apps">My apps</string>
+    <string name="title_new">New</string>
+    <string name="appintro_schedule_title">Schedule in exact time</string>
+    <string name="appintro_schedule_desc">Need a permission for scheduling in exact time from Android 12</string>
+</resources>

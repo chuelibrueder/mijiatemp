@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_db_save_period_entries">
+        <item>1 minuto (por defeito)</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+    </string-array>
+
+    <string-array name="pref_service_notif_prio_entries">
+        <item>Min</item>
+        <item>Baixo</item>
+        <item>@string/cap_default</item>
+        <item>Alto</item>
+        <item>Max</item>
+    </string-array>
+
+    <string-array name="pref_widget_refresh_period_entries">
+        <item>Imediatamente</item>
+        <item>1 minuto (por defeito)</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>@string/cap_default</item>
+        <item>Média por Hora</item>
+        <item>Média por Dia</item>
+        <item>Média por Semana</item>
+        <item>Média por Mês</item>
+        <item>Média por Ano</item>
+    </string-array>
+
+    <string-array name="pref_themes_entries">
+        <item>Claro</item>
+        <item>Escuro</item>
+        <item>Preto</item>
+    </string-array>
+
+    <string-array name="pref_alert_threshold_entries">
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos (por defeito)</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+    </string-array>
+
+</resources>
